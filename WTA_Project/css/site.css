@@ -1,0 +1,253 @@
+.header {
+    padding-left: 22%;
+    background-color: #8ebc00;
+}
+
+.header a {
+    color: white !important;
+    font-weight: 600;
+}
+
+.header .navbar-brand {
+    font-size: 30px;
+}
+
+.navbar-collapse {
+
+    padding-left: 60%;
+}
+
+.navbar-nav li a:active, .navbar-nav li a:hover, .navbar-nav li a:focus {
+    background-color: #6A8C01;
+    border-color: #6A8C01;
+    border-radius: 5px;
+}
+
+.bg-dark {
+    height: 145px;
+}
+
+.welcome {
+    padding-top: 35px;
+    font-size: 20px;
+    color: white;
+}
+
+.welcome h1 span {
+    color: #8ebc00;
+}
+
+.intro {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.intro h2 {
+    color: #8ebc00;
+}
+
+.intro img {
+    width: 35px;
+    height: 33px;
+    float: left;
+}
+
+.powerful {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.search {
+    margin-top: 30px;
+    height: 100px;
+}
+
+.search .form-control {
+    display: inline;
+    width: 80%;
+}
+
+.search button {
+    font-size: 18px;
+    border-radius: 45%;
+    color: #fff;
+    background-color: #8ebc00;
+    border-color: #8ebc00;
+}
+
+.search button:hover {
+    border-color: #82ad00;
+    background-color: #82ad00;
+}
+
+.search button:active, .search button:focus {
+    box-shadow: inset 0 1px 1px #82ad00, 0 0 8px #82ad00;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #212529;
+}
+
+.contact a:hover {
+    color: #8ebc00;
+}
+
+.image-caption {
+    background: rgba(0,0,0,.2);
+    height: 100%;
+    width: 288px;
+    position: absolute;
+    top: 0;
+}
+
+.image-caption:hover {
+    background: none;
+}
+
+.image-caption span {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    position: absolute;
+    top: 50%;
+    margin-top: -12.5px;
+    width: 80%;
+    left: 10%;
+    text-align: center;
+}
+
+.about {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.about img {
+    width: 200px;
+}
+
+.form {
+    margin-top: 20%;
+}
+
+.form img {
+    width: 8%;
+    padding-bottom: 10px;
+}
+
+.form .form-group {
+    margin-top: 1rem;
+}
+
+.index {
+    margin-top: 30px;
+}
+
+.form button, .form .add button {
+    color: #fff;
+    background-color: #8ebc00;
+    border-color: #8ebc00;
+    font-size: 18px;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.form button:hover, .form .add button:hover {
+    border-color: #82ad00;
+    background-color: #82ad00;
+}
+
+.form button:active, .form button:focus, .form .add button:active, .form .add button:focus {
+    box-shadow: inset 0 1px 1px #82ad00, 0 0 8px #82ad00;
+}
+
+.form .form-control:focus, .form .add .form-control:focus {
+    box-shadow: inset 0 1px 1px #8ebc00, 0 0 8px #8ebc00;
+}
+
+a.add, a.ctrb, a.plt {
+    color: #fff;
+    background-color: #8ebc00;
+    border-color: #8ebc00;
+    font-size: 18px;
+}
+
+a.add:hover, a.ctrb:hover, a.plt:hover {
+    border-color: #82ad00;
+    background-color: #82ad00;
+}
+
+a.add:active, a.add:focus, a.ctrb:active, a.ctrb:focus, a.plt:active, a.plt:focus {
+    box-shadow: inset 0 1px 1px #82ad00, 0 0 8px #82ad00;
+}
+
+a.ctrb, a.plt {
+    font-size: 24px;
+    width: 100%;
+    height: 100px;
+    padding-top: 30px;
+}
+
+.back {
+    width: 100%;
+    margin-top: 1rem;
+    font-size: 18px;
+}
+
+.form small a:hover {
+    text-decoration: none;
+}
+
+#username_err {
+    padding-bottom: 10px;
+}
+
+.plant {
+    margin-top: 30px;
+}
+
+.plant hr {
+    height: 1px;
+    border: none;
+    color: #333;
+    background-color: #82ad00;
+}
+
+.plant button {
+    color: white;
+    background-color: #f8ac59;
+    border-color: #f8ac59;
+}
+
+.plant button:hover {
+    border-color: #f69023;
+    background-color: #f69023;
+}
+
+.plant button:active, .plant button:focus {
+    box-shadow: inset 0 1px 1px #f69023, 0 0 8px #f69023;
+}
+
+.plant .form-control:focus {
+    box-shadow: inset 0 1px 1px #f8ac59, 0 0 8px #f8ac59;
+}
+
+.edit span {
+    display: block;
+}
+
+.plant .remove {
+    background-color: #ed5565;
+    border-color: #ed5565;
+    float: right;
+}
+
+.plant .remove:hover {
+    border-color: #e7182d;
+    background-color: #e7182d;
+}
+
+.plant .remove:active, .plant .remove:focus {
+    box-shadow: inset 0 1px 1px #e7182d, 0 0 8px #e7182d;
+}
